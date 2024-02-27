@@ -1,0 +1,24 @@
+.pExperience {
+    height: 100px;
+    width: 300px;
+    background-color: #FFCD29;
+    color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pExpBox{
+    display: contents;
+}
+
+.pExpBox {
+    transition: transform 0.3s ease-in-out; /* Add the transition property */
+
+}
+
+.pExpBox :hover{
+    transform: scale(1.1);
+}

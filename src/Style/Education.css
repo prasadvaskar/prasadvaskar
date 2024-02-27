@@ -1,0 +1,23 @@
+.Education{
+    height: 50px;
+    width: 200px;
+    background-color: #9747FF;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.EducationBox{
+    display: contents;
+}
+
+.EducationBox {
+    transition: transform 0.3s ease-in-out; /* Add the transition property */
+
+}
+
+.EducationBox :hover{
+    transform: scale(1.1);
+}

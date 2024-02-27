@@ -1,0 +1,23 @@
+.Today{
+    width: 160px;
+    height: 459px;
+    background-color: #1E1E1E;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TodayBox{
+    display: contents;
+}
+
+.TodayBox {
+    transition: transform 0.3s ease-in-out; /* Add the transition property */
+
+}
+
+.TodayBox :hover{
+    transform: scale(1.1);
+}
+

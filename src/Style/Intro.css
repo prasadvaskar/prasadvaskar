@@ -1,0 +1,26 @@
+
+.IntroDiv{
+    background-color: #F24822;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.IntroBox{
+    display: contents;
+}
+
+.IntroBox {
+    transition: transform 0.3s ease-in-out; /* Add the transition property */
+
+}
+
+.IntroBox :hover{
+    transform: scale(1.1);
+}
